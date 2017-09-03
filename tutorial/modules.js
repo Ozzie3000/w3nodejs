@@ -1,5 +1,5 @@
 //to use a module use the require() function
-var http = require("http")
+var http = require("http");
 
 //a module to return date time
 exports.myDateTime = function () {
