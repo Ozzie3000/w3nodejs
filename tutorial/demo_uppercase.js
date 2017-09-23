@@ -1,3 +1,6 @@
+//npm is a package manager for node.js
+//npm gets installed when you install node.js
+
 var http = require('http');
 var uc = require('upper-case');
 http.createServer(function (req, res) {
