@@ -7,3 +7,11 @@ var transporter = nodemailer.createTransport({
     pass: 'yourpassword'
   }
 });
+
+
+var mailOptions = {
+  from: 'youremail@gmail.com',
+  to: 'someothermail@yahoo.com',
+  subject: 'Sending Email using Node.js',
+  text: 'piece of cake!'
+};
